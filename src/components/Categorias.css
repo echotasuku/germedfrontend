@@ -1,0 +1,72 @@
+/* Categorias.css */
+
+.categorias-container {
+    max-width: 400px;
+    /* Ajuste da largura máxima para ficar mais compacto */
+    margin: 20px 0 0 220px;
+    /* Margem para alinhar ao lado da sidebar */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    /* Impede que o conteúdo ultrapasse as bordas */
+}
+
+.categorias-form {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    max-width: 100%;
+    /* Restrição para evitar que o campo expanda demais */
+}
+
+.categorias-form input {
+    padding: 8px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 180px;
+    /* Limita a largura máxima */
+    box-sizing: border-box;
+    /* Garante que padding e bordas fiquem dentro da largura */
+}
+
+.categorias-form button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background-color 0.3s ease;
+}
+
+.categorias-form button:hover {
+    background-color: #0056b3;
+}
+
+.categorias-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.categoria-item {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.categoria-item p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
